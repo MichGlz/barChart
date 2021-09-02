@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  padding: 2rem;
+  width: 100%;
+}
+
+.barChartContainer {
+  display: flex;
+  width: 100%;
+  background-color: black;
+  height: 40vh;
+  align-items: flex-end;
+  padding-bottom: 1rem;
+  flex-direction: row-reverse;
+}
+
+.bar {
+  border: solid black 1px;
+  width: 2.5%;
+  /* height: 32vh; */
+  background-color: #7fff00;
+}
